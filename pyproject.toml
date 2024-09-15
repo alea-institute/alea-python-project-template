@@ -84,3 +84,6 @@ line_length = 120
 
 [tool.pytest.ini_options]
 addopts = "--cov=alea_template --cov-report=term-missing --cov-report=xml --cov-report=html"
+
+[tool.mypy]
+ignore_missing_imports = true
